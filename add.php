@@ -1,35 +1,30 @@
 ﻿<style type="text/css">
-	body {
-		background:#5685BF; 
-		color:#fff;
-		font-size:22px;
-		text-align:center;
-		}
-		
-		
-	H1 { 
-		display: block;
-		font-size:40px;
-		width:50%;
-		background: linear-gradient(to top, #5685BF, #143963);
-		color:#fff;
-		padding: 10px;
-		margin: 20px auto;
-		border: 1px solid #5685BF;
-		text-align: center;
+body {
+	background:#5685BF; 
+	color:#fff;
+	font-size:22px;
+	text-align:center;
 	}
-   
-	
-	
-	
-	
-	table, th, td {
-		font-size:22px;
-   color:#fff;
-}
+		
+		
+H1 { 
+	display: block;
+	font-size:40px;
+	width:50%;
+	background: linear-gradient(to top, #5685BF, #143963);
+	color:#fff;
+	padding: 10px;
+	margin: 20px auto;
+	border: 1px solid #5685BF;
+	text-align: center;
+	}
+ 	
+table, th, td {
+	font-size:22px;
+	color:#fff;
+	}
 
 input {
- 
     height: 35px;
     padding: 5px 10px 5px 10px;
     border:1px solid #999;
@@ -52,11 +47,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #335C8E;
-}
-
-
+	}
   </style>
-
 <?php
 include ("header.php");
 ?>
@@ -71,20 +63,17 @@ function splash()
 			return false;	
 		}
 		
-		
 		if (document.myForm.subject.value  =='')
 		{
 			alert ("Заповніть назву!");
 			return false;	
 		}
 		
-		
 	if (document.myForm.msg.value  =='')
 		{
 			alert ("Заповніть текст!");
 			return false;	
 		}
-	
 	return true;   
 }
 </script>
@@ -139,12 +128,9 @@ function splash()
 </html>
 
 <?php
-
 $info = <<<INFO
 	*Також можна використовувати HTML-теги.</br>
 	<strong>Наприклад:</strong> &lt;strong&gt; , &lt;a&gt; , &lt;i&gt; , &lt;ul&gt; , &lt;/br&gt; ,  &lt;/p&gt;.
 INFO;
-
-	echo "$info";	
-		
+	echo "$info";		
 ?>

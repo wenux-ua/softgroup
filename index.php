@@ -1,34 +1,31 @@
 ﻿
  <style type="text/css">
-	body {
-		background:#5685BF; 
-		}
+body {
+	background:#5685BF; 
+	}
 		
-		
-	H1 { 
-		display: block;
-		font-size:40px;
-		width:50%;
-		background: linear-gradient(to top, #5685BF, #143963);
-		color:#fff;
-		padding: 10px;
-		margin: 20px auto;
-		border: 1px solid #5685BF;
-		text-align: center;
-		
-		
+H1 { 
+	display: block;
+	font-size:40px;
+	width:50%;
+	background: linear-gradient(to top, #5685BF, #143963);
+	color:#fff;
+	padding: 10px;
+	margin: 20px auto;
+	border: 1px solid #5685BF;
+	text-align: center;	
 	}
    
-	article {
-		font-size:25px;
+article {
+	font-size:25px;
 	}
    
-	content {
-		display:block;
-		width: 75%;
-		margin: 1px auto;
-		text-align: center;
-		padding:2px;   
+content {
+	display:block;
+	width: 75%;
+	margin: 1px auto;
+	text-align: center;
+	padding:2px;   
 	}
   </style>
 <?php
@@ -78,7 +75,6 @@
 					<br>
 				</td>
 			</tr>
-			
 			</table></content>
 			
 			<?php

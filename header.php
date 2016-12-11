@@ -7,29 +7,28 @@
 		});
 	</script>
  
- <head><title>Блог</title></head>
+<head><title>Блог</title></head>
 <style>
- header {
-  display: block;
-  font-size:22px;
-   background: linear-gradient(to top, #143963, #5685BF);
-   color:#fff;
-   link:#fff;
-    padding: 10px;
+header {
+	display: block;
+	font-size:22px;
+	background: linear-gradient(to top, #143963, #5685BF);
+	color:#fff;
+	link:#fff;
+	padding: 10px;
     border: 1px solid #5685BF;
 	text-align: center;
- }
+	}
  
- A {
-    color: #cecece; /* Цвет ссылок */
+A {
+	color: #cecece; /* Цвет ссылок */
    }
-   A:visited {
+A:visited {
     color: #cecece; /* Цвет посещенных ссылок */
    }
-   A:active {
+A:active {
     color: #ffff00; /* Цвет активных ссылок */
    }
-   
 </style>
 
 <header>
@@ -50,7 +49,5 @@
 			echo "<a href='$key'>$value</a> " ;
 	
 		}
-	
 ?>
-
 </header>
